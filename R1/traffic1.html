@@ -1,0 +1,51 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Google Maps - gmplot</title>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization"></script>
+<script type="text/javascript">
+    function initialize() {
+        var map = new google.maps.Map(document.getElementById("map_canvas"), {
+            zoom: 17,
+            center: new google.maps.LatLng(18.630658, 73.789709)
+        });
+
+        new google.maps.Circle({
+            strokeColor: '#FF0000',
+            strokeOpacity: 1.0,
+            strokeWeight: 1,
+            fillColor: '#FF0000',
+            fillOpacity: 0.3,
+            map: map,
+            center: new google.maps.LatLng(48    18.630295
+        49    18.630295
+        50    18.630295
+        51    18.630295
+        52    18.630295
+        53    18.630295
+        54    18.630295
+        55    18.630295
+        56    18.630295
+        57    18.630295
+        Name: Latitude, dtype: float64, 48    73.792155
+        49    73.792155
+        50    73.792155
+        51    73.792155
+        52    73.792155
+        53    73.792155
+        54    73.792155
+        55    73.792155
+        56    73.792155
+        57    73.792155
+        Name: Longitude, dtype: float64),
+            radius: 6
+        });
+
+    }
+</script>
+</head>
+<body style="margin:0px; padding:0px;" onload="initialize()">
+    <div id="map_canvas" style="width: 100%; height: 100%;" />
+</body>
+</html>
