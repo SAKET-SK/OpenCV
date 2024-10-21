@@ -1,1 +1,1 @@
-**Open CV** is instrumental for Object Detection applications. We have worked on traffic and pothole detection for this project. You can just head over to the **WIKI** tab above for more detailed information. 
+**Open CV** is instrumental for Object Detection applications. We have worked on topics such as traffic and pothole detection for this project. You can just head over to the **WIKI** tab above for more detailed information. 
